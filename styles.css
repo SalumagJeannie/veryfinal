@@ -1,0 +1,44 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffc0cb;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    backdrop-filter: blur(50px); /* Add the blur effect */
+}
+
+.about {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.section {
+    flex: 1 1 calc(33.3333% - 20px);
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Use rgba to set a semi-transparent background */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.section:hover {
+    transform: scale(1.05);
+}
+
+h2 {
+    color: #008080;
+    transition: color 0.3s ease;
+}
+
+.section:hover h2 {
+    color: #006666;
+}
+
+p {
+    line-height: 1.6;
+    color: #555;
+}

@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffc0cb; /* Pink background color */
+    color: #333; /* Dark text color */
+}
+
+
+.contact-container {
+    max-width: 500px;
+    margin: 30px auto;
+    background-color: #fff; /* White background color */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #e75480; /* Darker pink submit button color */
+    color: #fff; /* White text color */
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #ff6b98; /* Lighter pink on hover */
+}
+
+footer {
+    background-color: #ec76b1; /* Updated color for the footer */
+    text-align: center;
+    color: #fff; /* White text color */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

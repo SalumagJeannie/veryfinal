@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffc0cb; /* Pink background color */
+}
+
+hheader {
+    background-color: #e75480; /* Darker pink header background color */
+    padding: 20px;
+    text-align: center;
+    color: #fff; /* White text color */
+}
+.service-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.service {
+    width: 45%;
+    padding: 20px;
+    background-color: #fff; /* White background color */
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.service:hover {
+    transform: scale(1.05);
+}
+
+h2 {
+    color: #e75480; /* Darker pink for headings */
+}
+
+p {
+    line-height: 1.6;
+    color: #333; /* Dark text color */
+}
+
+footer {
+    background-color: #e75480; /* Darker pink for the footer */
+
+    text-align: center;
+    color: #fff; /* White text color */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
